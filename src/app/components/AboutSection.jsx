@@ -12,7 +12,7 @@ const TAB_DATA = [
       <div className="flex m-auto">
         <Image src="/images/projects/html.png" alt="HTML" width={96} height={96} />
         <Image src="/images/projects/css.png" alt="CSS" width={96} height={96} />
-        <Image src="/images/projects/express.png" alt="React" width={96} height={96} />
+        <Image src="/images/projects/react.png" alt="React" width={96} height={96} />
         <Image src="/images/projects/node-js.png" alt="node.JS" width={96} height={96} />
 
       </div>
