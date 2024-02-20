@@ -67,42 +67,42 @@ const AboutSection = () => {
   };
 
   return (
-    // <section className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20" id="about">
-    <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-      <Image
-        src="/images/about-image.jpg"
-        alt="About Image"
-        width={400}
-        height={100}
-      />
-      <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">About Me</h2>
-        <p className="text-base lg:text-lg">
-          I am a full stack web developer with a passion for creating
-          interactive and responsive web applications. I have experience
-          working with JavaScript, React, Redux, Node.js, Express, NextJS,
-          HTML, CSS, and Git. I am a quick learner and I am always
-          looking to expand my knowledge and skill set.
-          I am excited to work with others to create amazing applications.
-        </p>
+    <section className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden pb-80 py-20" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+        <Image
+          src="/images/about-image.jpg"
+          alt="About Image"
+          width={400}
+          height={100}
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">Skills </h2>
-          <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-            {TAB_DATA.find((t) => t.id === tab).content}
-          </div>
-          <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-            {MAT_DATA.find((t) => t.id === tab).content}
-          </div>
-          <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-            {SAT_DATA.find((t) => t.id === tab).content}
+          <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">About Me</h2>
+          <p className="text-base lg:text-lg">
+            I am a full stack web developer with a passion for creating
+            interactive and responsive web applications. I have experience
+            working with JavaScript, React, Redux, Node.js, Express, NextJS,
+            HTML, CSS, and Git. I am a quick learner and I am always
+            looking to expand my knowledge and skill set.
+            I am excited to work with others to create amazing applications.
+          </p>
+          <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
+            <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">Skills </h2>
+            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+              {TAB_DATA.find((t) => t.id === tab).content}
+            </div>
+            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+              {MAT_DATA.find((t) => t.id === tab).content}
+            </div>
+            <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+              {SAT_DATA.find((t) => t.id === tab).content}
+            </div>
           </div>
         </div>
+
+
       </div>
 
-
-    </div>
-
-    // </section>
+    </section>
   );
 };
 
