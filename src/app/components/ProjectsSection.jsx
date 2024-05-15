@@ -12,7 +12,7 @@ const projectsData = [
     image: "/images/projects/1.png",
     tag: ["All"],
     gitUrl: "https://github.com/omasati1709/OniShop",
-    previewUrl: "https://sore-blue-cuttlefish-toga.cyclic.app/",
+    previewUrl: "https://onishop-main.onrender.com/",
   },
   {
     id: 2,
