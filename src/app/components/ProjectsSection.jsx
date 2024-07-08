@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "AI Mock App",
+    description: "Developed a comprehensive and user-friendly AI-driven mock interview application designed to enhance interview preparation. The app features realistic interview simulations, personalized feedback, and advanced analytics to track performance.",
+    image: "/images/projects/0.png",
+    tag: ["All"],
+    gitUrl: "https://github.com/omasati1709/ai_mock",
+    previewUrl: "https://ai-mock-omega.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Onishop (Ecommerce)",
     description: "Developed an efficient and secure e-commerce admin panel with streamlined product and inventory management, order processing, user-friendly interface, and advanced filtering options for an enhanced online shopping experience, implementing robust OAuth security measures.",
     image: "/images/projects/1.png",
@@ -15,7 +24,7 @@ const projectsData = [
     previewUrl: "https://onishop-main.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "ChatApp",
     description: "Designed and implemented a feature-rich chat application with a user-friendly interface, real-time messaging, and enhanced user experience, incorporating robust security measures to ensure the confidentiality and integrity of user communications.",
     image: "/images/projects/2.png",
@@ -24,7 +33,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "A2ZGPT",
     description: "Develop A2ZGPT, a versatile platform integrating AI-driven text conversion, image processing, video manipulation, music generation, and code development. Empowered users with seamless and comprehensive tools for AI-powered content transformation across multiple domains, enhancing creativity and productivity.",
     image: "/images/projects/3.png",
@@ -33,7 +42,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Expense management system",
     description: "Design a user-friendly Expense Management platform with comprehensive features for efficient expense tracking, submission, reimbursement processing, and dynamic Expense Graphs, enhancing User Experience (UX). Implemented robust OAuth authentication for heightened platform security, ensuring the safety and confidentiality of user data.",
     image: "/images/projects/4.png",
@@ -42,7 +51,7 @@ const projectsData = [
     previewUrl: "https://uptight-ruby-buffalo.cyclic.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Todo List APP",
     description:
       "Crafted a productive and user-friendly To-Do List application that simplifies task management. Empowered users to efficiently create, organize, and complete tasks, with intuitive features for task creation, tracking, completion, and deletion, ultimately streamlining the overall user experience.",
